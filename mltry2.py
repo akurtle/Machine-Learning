@@ -8,7 +8,7 @@ import pickle
 from matplotlib import style
 
 
-data= pd.read_csv("C:/Users/yousu/Projects/Python/ml/machine.csv",sep=",")
+data= pd.read_csv("machine.csv",sep=",")
 
 data.columns=["vendor","model","MYCT","MMIN","MMAX","CACH","CHMIN","CHMAX","PRP","ERP"]
 
